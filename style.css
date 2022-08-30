@@ -1,0 +1,35 @@
+h1 {
+    font-family: 'Lobster', cursive;
+    /* font-size: 4rem; */
+}
+
+body {
+    background-color: #b2d9ce;
+}
+#you {
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#draw {
+    color: rgb(189, 148, 25);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#computer {
+    color: red;
+    font-family: 'Ubuntu', sans-serif;
+}
+button {
+    transform: 150ms;
+    animation-delay: 50ms;
+}
+
+button:hover {
+    transform: scale(1.25);
+    opacity: 0.76;
+}
+
+.history-row {
+    display: none;
+}
